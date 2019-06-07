@@ -8,7 +8,8 @@ This script has 7 steps to complete the assignment:
 * Use descriptive activity names to name the activities in the dataset(factor());
 * Create a second independent tidy dataset with the average of each variable for each activity and each subject(group_by(),summarise_all());
 * Write a table into the working directory(write.table()).
-Please do set the working directory using setwd(), put the Samsung data in your working directory, then fill in the path of your working directory between quotes in setwd() before running this script. Then source the whole script in R, you will get the resulted tidy dataset with the average of each variable for each activity and each subject. 
+
+Please do set the working directory using setwd(), put the Samsung data in your working directory, decompress them in the same directory, then fill in the path of your working directory between quotes in setwd() before running this script. Then source the whole script in R, you will get the resulted tidy dataset with the average of each variable for each activity and each subject. 
 
 
    
